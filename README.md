@@ -1,30 +1,35 @@
-# Level 4 MySQL Database Project
+# Inventory Management Database
 
-## Overview
+Created as part of the New Zealand Certificate in Information Technology (Level 4).
 
-This repository contains a relational database project completed as part of my New Zealand Level 4 Information Technology qualification.
+## Project Overview
 
-The project demonstrates database planning, design, implementation and documentation using MySQL.
+This project demonstrates the design, implementation and testing of a relational inventory management database for an Auckland electronics retailer.
 
 ## Skills Demonstrated
 
 - Database Design
-- Entity Relationship Diagrams (ERD)
-- Functional Design Documentation (FDD)
 - SQL
-- Primary & Foreign Keys
-- Normalisation
-- CRUD Operations
-- Database Export & Backup
-
-## Repository Structure
-
-docs/
-database/
-diagrams/
-screenshots/
-
-## Software
-
-- MySQL
 - MySQL Workbench
+- Entity Relationship Diagrams
+- Database Normalisation
+- CRUD Operations
+- Reporting
+- Forms
+- Testing
+- Database Backup
+- Security Planning
+
+## Technologies
+
+- MySQL Workbench
+- LibreOffice Base
+- SQL
+
+## Documentation
+
+Complete assessment documentation is included.
+
+## Author
+
+Deacon George
