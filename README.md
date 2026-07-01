@@ -1,172 +1,133 @@
 # Inventory Management Database System
 
-> A professional portfolio project demonstrating the design, development and implementation of a relational inventory management database for **Bright Sparks Ltd**, a fictional New Zealand electronics retailer.
+![Repository Banner](assets/repo_banner.png)
 
-![Project Banner](assets/Repository_Banner.png)
-
----
-
-## Project Overview
-
-The **Inventory Management Database System** was developed in response to a realistic business case involving Bright Sparks Ltd, a fictional Auckland-based electronics retailer requiring a centralised solution for inventory and sales management.
-
-The objective of the project was to replace manual record keeping with a structured relational database capable of managing products, suppliers, inventory levels and sales transactions while providing meaningful reports that support business decision making.
-
-The project demonstrates the complete lifecycle of database development, from planning and requirements gathering through to implementation, testing and evaluation.
+A relational database designed for **Bright Sparks Ltd**, a fictional electronics retailer, to manage inventory, suppliers and sales using MySQL.
 
 ---
 
-# Business Problem
+## Overview
 
-As Bright Sparks Ltd expanded, managing inventory manually became increasingly inefficient.
+This project was completed as part of the Level 4 New Zealand Certificate in Information Technology Essentials.
 
-The business required a system capable of:
-
-- Managing products and suppliers
-- Tracking inventory levels
-- Recording sales transactions
-- Producing management reports
-- Identifying low stock items
-- Analysing sales performance
-- Improving data accuracy
+The system replaces manual inventory management with a structured relational database capable of storing products, suppliers, inventory and sales information. A LibreOffice Base interface was developed to provide forms, queries and reports for end users.
 
 ---
 
-# Solution
+## Features
 
-A relational database was designed and implemented using **MySQL** with a user interface developed in **LibreOffice Base**.
-
-The completed system provides:
-
-- Product Management
-- Supplier Management
-- Inventory Tracking
-- Sales Transaction Recording
-- Weekly Low Stock Reporting
-- Monthly Top Selling Product Reporting
-- Role Based User Permissions
-- Search Forms
-- Reports and Queries
+- Relational MySQL database
+- Normalised database design (UNF → 3NF)
+- Entity Relationship Diagram (ERD)
+- Product, Supplier and Inventory Management
+- Sales Recording
+- SQL Queries
+- Reports
+- Role-based permissions
+- LibreOffice Base user interface
 
 ---
 
-# Technologies
+## Technologies
 
 | Technology | Purpose |
 |------------|---------|
-| MySQL | Relational Database |
-| SQL | Database Development |
-| LibreOffice Base | User Interface |
-| Entity Relationship Diagram (ERD) | Database Design |
-| Database Normalisation | Data Integrity |
-| Git & GitHub | Version Control & Portfolio |
+| MySQL 8 | Database |
+| SQL | Queries and data management |
+| LibreOffice Base | User interface |
+| Git | Version Control |
+| GitHub | Portfolio hosting |
 
 ---
 
-# Repository Structure
+## Repository Structure
 
 ```text
 inventory-management-database
-│
-├── README.md
-├── CHANGELOG.md
-├── LICENSE
 │
 ├── assets
 ├── database
 ├── diagrams
 ├── docs
-└── screenshots
+├── screenshots
+├── CHANGELOG.md
+├── LICENSE
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-# Documentation
+## Documentation
 
-| Document | Description |
-|----------|-------------|
-| Executive Summary | Project overview and business objectives |
-| Project Planning | Requirements gathering and planning |
-| Database Design | ERD and normalisation process |
-| Database Implementation | SQL development and database creation |
-| Testing & Evaluation | Testing methodology and outcomes |
-| Future Development | Planned improvements and enhancements |
+Project documentation can be found in the **docs** folder.
 
----
-
-# Features
-
-✔ Product Management
-
-✔ Supplier Management
-
-✔ Inventory Tracking
-
-✔ Sales Recording
-
-✔ Reports
-
-✔ Queries
-
-✔ Role Based Security
-
-✔ SQL CRUD Operations
-
-✔ Database Normalisation
-
----
-
-# Lessons Learned
-
-This project significantly improved my understanding of:
-
-- Relational Database Design
-- SQL Development
+- Executive Summary
+- Company Overview
+- Business Case
+- Project Objectives
 - Requirements Analysis
-- Entity Relationship Modelling
-- Database Normalisation
-- User Interface Design
-- Client Feedback
-- Technical Documentation
+- Project Planning
+- Database Design
+- Database Implementation
+- Testing and Evaluation
+- Reflection
+- Future Development
 
 ---
 
-# Future Improvements
+## Database
 
-If this system were redeveloped today, I would extend it by adding:
+The complete MySQL database export is included.
 
-- Web-based user interface
-- Secure authentication system
-- Barcode scanner integration
-- Automated stock reorder notifications
-- Interactive management dashboard
-- Enhanced reporting and analytics
-- Cloud database hosting
-- Mobile and tablet support
+```
+database/
+└── BrightSparks_Database.sql
+```
 
 ---
 
-# About This Repository
+## Project Evidence
 
-This repository contains the **Portfolio Edition** of my Level 4 Inventory Management Database project.
+### Entity Relationship Diagram
 
-The original academic assessment has been reorganised and professionally documented to demonstrate both the technical solution and the software development process behind the project.
+> *(Add `diagrams/ERD.png` here once committed.)*
+
+### Screenshots
+
+> *(Add screenshots from the `screenshots` folder here.)*
+
+Suggested screenshots:
+
+- Product Form
+- Supplier Form
+- Low Stock Query
+- Top Selling Report
+- Database Tables
 
 ---
 
-# Author
+## Future Improvements
+
+If I continued developing this project I would:
+
+- Replace LibreOffice Base with a web application.
+- Add secure user authentication.
+- Implement barcode scanning.
+- Add inventory dashboards.
+- Introduce automated low-stock notifications.
+- Support cloud deployment.
+
+---
+
+## About This Repository
+
+This repository is a portfolio version of my original Level 4 database assessment. The documentation has been rewritten and reorganised to present the project as a professional case study while preserving the original design and implementation.
+
+---
+
+## Author
 
 **Deacon George**
 
-Information Technology Student  
-New Zealand
-
-GitHub Portfolio Project #001
-
----
-
-## License
-
-This project is released under the MIT License.
-
-See the LICENSE file for details.
+GitHub: https://github.com/deacongeorgenz
