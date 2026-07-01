@@ -2,78 +2,70 @@
 
 ![Repository Banner](assets/Repository_Banner.png)
 
-A relational database developed for **Bright Sparks Ltd**, a fictional electronics retailer, to improve inventory management, supplier administration and sales reporting.
+A relational database project built for **Bright Sparks Ltd**, a fictional Auckland electronics retailer, to manage products, suppliers, inventory and sales.
 
 ---
 
-## Project Overview
+## What This Project Does
 
-This project was completed as part of the **New Zealand Diploma in Information Technology (Level 4)**.
+The system replaces manual inventory tracking with a structured MySQL database. It stores product, supplier, inventory and sales information, then uses forms, queries and reports to make that data easier to manage.
 
-The database was designed and implemented using **MySQL**, with a **LibreOffice Base** front-end providing forms, queries and reports. It demonstrates the complete process of analysing business requirements, designing a relational database and delivering a working solution.
+The project includes:
 
----
-
-## Features
-
-- Relational MySQL database
-- Entity Relationship Diagram (ERD)
-- Database Normalisation (UNF → 3NF)
-- Product Management
-- Supplier Management
-- Inventory Tracking
-- Sales Recording
-- SQL Queries
-- Reports
-- Role-based Permissions
+- MySQL database design
+- Entity Relationship Diagram
+- Normalisation from UNF to 3NF
+- SQL database export
+- LibreOffice Base interface
+- Forms, queries and reports
+- Role-based permissions
+- Testing evidence
 
 ---
 
-## Technologies
+## Database Design
 
-| Technology | Purpose |
-|------------|---------|
-| MySQL 8 | Database Management System |
-| SQL | Data Definition & Queries |
-| LibreOffice Base | User Interface |
-| Git | Version Control |
-| GitHub | Portfolio Hosting |
-
----
-
-# Database Design
-
-## Entity Relationship Diagram
+### Entity Relationship Diagram
 
 ![Entity Relationship Diagram](diagrams/ERD.png)
 
-The database was designed using relational database principles and normalised from **UNF through to Third Normal Form (3NF)** to minimise redundancy and maintain data integrity.
+The database was designed around products, suppliers, inventory and sales. Primary and foreign keys connect the tables and reduce repeated data.
 
-Additional design documentation is available in the **diagrams** and **docs** folders.
+### Normalisation
 
----
+The design was normalised from the original unnormalised scenario through to Third Normal Form.
 
-## Database Normalisation
-
-| Stage | Diagram |
-|-------|---------|
-| UNF | ![](diagrams/UNF.png) |
-| 1NF | ![](diagrams/1NF.png) |
-| 2NF | ![](diagrams/2NF.png) |
-| 3NF | ![](diagrams/3NF.png) |
+| Stage | File |
+|---|---|
+| UNF | `diagrams/UNF.png` |
+| 1NF | `diagrams/1NF.png` |
+| 2NF | `diagrams/2NF.png` |
+| 3NF | `diagrams/3NF.png` |
 
 ---
 
-## Project Structure
+## Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| MySQL 8 | Database |
+| SQL | Table creation, queries and data management |
+| LibreOffice Base | Interface, forms and reports |
+| Git | Version control |
+| GitHub | Portfolio hosting |
+
+---
+
+## Repository Structure
 
 ```text
 inventory-management-database
 │
-├── assets/
-├── database/
-├── diagrams/
-├── docs/
-├── screenshots/
+├── assets/        Project banner and visual assets
+├── database/      SQL export and schema documentation
+├── diagrams/      ERD and normalisation diagrams
+├── docs/          Project documentation
+├── screenshots/   Forms, queries, reports and testing evidence
 ├── CHANGELOG.md
 ├── LICENSE
 ├── README.md
@@ -82,9 +74,21 @@ inventory-management-database
 
 ---
 
+## Database
+
+The full MySQL export is included here:
+
+```text
+database/BrightSparks_Database.sql
+```
+
+See the `database/` folder for schema, table and relationship notes.
+
+---
+
 ## Documentation
 
-Project documentation is located in the **docs** folder.
+The `docs/` folder contains short project documents covering:
 
 - Executive Summary
 - Company Overview
@@ -94,50 +98,34 @@ Project documentation is located in the **docs** folder.
 - Project Planning
 - Database Design
 - Database Implementation
-- Testing & Evaluation
+- Testing and Evaluation
 - Reflection
 - Future Development
 
 ---
 
-## Database Export
-
-The complete MySQL database is included.
-
-```text
-database/
-└── BrightSparks_Database.sql
-```
-
----
-
 ## Screenshots
 
-Project screenshots can be found in the **screenshots** folder and include:
-
-- Forms
-- Reports
-- SQL Queries
-- Database Tables
-- Application Interface
+Screenshots are stored in the `screenshots/` folder and show the working system, including forms, queries, reports and database evidence.
 
 ---
 
 ## Future Improvements
 
-Future versions of the project could include:
+If I rebuilt this system today, I would add:
 
 - Web-based interface
+- Secure login
 - Barcode scanning
-- Secure authentication
-- Inventory dashboard
-- Automated stock alerts
-- Cloud deployment
+- Stock alert notifications
+- Management dashboard
+- Cloud backup
+- Mobile/tablet support
 
 ---
 
 ## Author
 
-**Deacon George**
-
-GitHub: https://github.com/deacongeorgenz
+**Deacon George**  
+New Zealand  
+GitHub: [deacongeorgenz](https://github.com/deacongeorgenz)
